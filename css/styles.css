@@ -1,0 +1,82 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bgc\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.modern-form {
+    background: transparent;
+    padding: 90px 80px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    border: 1px solid rgb(230, 239, 57);
+    box-shadow:rgba(247, 250, 35,0.9);
+}
+
+
+.modern-form h2 {
+    margin-bottom: 45px;
+    font-size: 40px;
+    color: #21a5eb;
+}
+
+
+.modern-form input,
+.modern-form select {
+    width: 240px;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #c1adad;
+    background: rgba(rgb(231, 220, 220), rgb(170, 180, 170), rgb(208, 208, 210), 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.modern-form input:focus,
+.modern-form select:focus {
+    border-color: #0077b5;
+    box-shadow: 0 0 8px rgba(0, 119, 181, 0.5);
+    outline: none;
+}
+
+
+.modern-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077b5;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.modern-form button:hover {
+    background-color: #005f8a;
+    transform: scale(1.02);
+}
+
+
+
+
